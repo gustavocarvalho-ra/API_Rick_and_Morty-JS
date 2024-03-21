@@ -14,6 +14,8 @@ const fetchApi = (value) => {
   return result
 }
 
-btnGo.addEventListener('click', () => {
-
+btnGo.addEventListener('click', async (e) => {
+  e.preventDefault();
+  const result = await fetchApi(characterId.value);
+  content.textContent = `${JSON.stringify(result, undefined, 2)}`;
 });
