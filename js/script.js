@@ -18,4 +18,5 @@ btnGo.addEventListener('click', async (e) => {
   e.preventDefault();
   const result = await fetchApi(characterId.value);
   content.textContent = `${JSON.stringify(result, undefined, 2)}`;
+  image.src = `${result.image}`
 });
