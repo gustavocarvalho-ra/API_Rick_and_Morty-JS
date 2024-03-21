@@ -14,6 +14,13 @@ const fetchApi = (value) => {
   return result
 }
 
+const keys = ['name', 'status', 'species', 'gender', 'origin', 'image', 'episode'];
+
+const buildResult = (result) => {
+  const newObject = {};
+  keys.map((key) => document.getElementById(key));
+}
+
 btnGo.addEventListener('click', async (e) => {
   e.preventDefault();
   const result = await fetchApi(characterId.value);
