@@ -5,11 +5,14 @@ input[type='number'] {
 
 label {
   color: rgb(102, 102, 102);
+  opacity: .9;
   cursor: pointer;
 }
 
 label:hover {
   color: black;
+  text-decoration: underline;
+  font-size: 17px;
 }
 
 form label {
