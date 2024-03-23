@@ -6,8 +6,29 @@ body {
   background: radial-gradient(circle, rgb(131, 189, 50) 0%, rgba(2,91,3,1) 100%);
 }
 
-#characterId input {
-  border-radius: 10%;
+.h2-1 {
+  font-size: 30px;
+}
+
+.di-01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.id01 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input[type='number'] {
+  border-radius: 13px;
+  padding: 5px;
+  width: 50px;
+  background: rgb(131, 189, 50);
+  font-size: 17px;
+  margin: 7px;
 }
 
 form {
@@ -26,12 +47,9 @@ form {
   justify-content: center;
 }
 
-input[type='number'] {
-  border-radius: 13px;
-  padding: 5px;
-  width: 50px;
-  background: rgb(131, 189, 50);
-  font-size: 17px;
+
+input[type='number']:hover {
+  text-shadow: #000;
 }
 
 #informacoes label {
