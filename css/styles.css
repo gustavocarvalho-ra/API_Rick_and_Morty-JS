@@ -3,9 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  /* background: rgb(151,206,76);
-  background: linear-gradient(180deg, rgba(151,206,76,1) 0%, rgba(41,64,10,1) 100%); */
-  background: radial-gradient(circle, rgba(151,206,76,1) 0%, rgba(2,91,3,1) 100%);
+  background: radial-gradient(circle, rgb(131, 189, 50) 0%, rgba(2,91,3,1) 100%);
 }
 
 form {
@@ -30,16 +28,16 @@ input[type='number'] {
 }
 
 #informacoes label {
-  color: rgb(102, 102, 102);
+  color: rgb(0, 0, 0);
   opacity: .9;
   cursor: pointer;
 }
 
 #informacoes label:hover {
-  color: black;
+  color: rgb(16, 196, 0);
   text-decoration: underline;
   font-size: 17px;
-  transition: .5s;
+  transition: .6s;
 }
 
 form label {
@@ -60,13 +58,18 @@ hr {
 }
 
 #btt button {
-  /* margin-right: 10px;
-  margin-left: 10px; */
-  width: 100px;
-  height: 30px;
-  border-radius: 18px;
+  width: 90px;
+  height: 32px;
+  border-radius: 13px;
   margin: 3px 8px;
   cursor: pointer;
+  background: rgb(131, 189, 50);
+}
+
+#btt button:hover {
+  background: rgb(17, 153, 19);
+  transition: .4s;
+
 }
 
 .result-style {
