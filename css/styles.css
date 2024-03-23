@@ -1,3 +1,19 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#informacoes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
 input[type='number'] {
   padding: 5px;
   width: 50px;
@@ -17,6 +33,11 @@ label:hover {
 
 form label {
   padding-left: 20px;
+}
+
+hr {
+  width: 50%;
+  
 }
 
 .result-style {
