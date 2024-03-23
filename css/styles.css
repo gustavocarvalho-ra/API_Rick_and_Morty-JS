@@ -38,6 +38,10 @@ form {
   flex-direction: column;
 }
 
+.h2-2 {
+  font-size: 25px;
+}
+
 #informacoes {
   display: flex;
   flex-wrap: wrap;
@@ -47,15 +51,11 @@ form {
   justify-content: center;
 }
 
-
-input[type='number']:hover {
-  text-shadow: #000;
-}
-
 #informacoes label {
   color: #000;
   opacity: .9;
   cursor: pointer;
+  font-weight: 600;
 }
 
 #informacoes label:hover {
