@@ -6,6 +6,10 @@ body {
   background: radial-gradient(circle, rgb(131, 189, 50) 0%, rgba(2,91,3,1) 100%);
 }
 
+#characterId input {
+  border-radius: 10%;
+}
+
 form {
   display: flex;
   align-items: center;
@@ -23,12 +27,15 @@ form {
 }
 
 input[type='number'] {
+  border-radius: 13px;
   padding: 5px;
   width: 50px;
+  background: rgb(131, 189, 50);
+  font-size: 17px;
 }
 
 #informacoes label {
-  color: rgb(0, 0, 0);
+  color: #000;
   opacity: .9;
   cursor: pointer;
 }
