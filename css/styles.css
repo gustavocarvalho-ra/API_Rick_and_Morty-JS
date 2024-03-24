@@ -82,6 +82,11 @@ hr {
   width: 80%;
 }
 
+.hr3 {
+  width: 75%;
+  margin-top: 35px;
+}
+
 #btt button {
   width: 90px;
   height: 32px;
