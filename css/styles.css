@@ -61,12 +61,13 @@ form {
 #informacoes label:hover {
   color: rgb(16, 196, 0);
   text-decoration: underline;
-  font-size: 17px;
+  /* font-size: 17px; */
+  scale: 1.1;
   transition: .6s;
 }
 
 form label {
-  padding-left: 20px;
+  padding: 0 5px 0 10px;
 }
 
 hr {
@@ -99,7 +100,6 @@ hr {
 #btt button:hover {
   background: rgb(17, 153, 19);
   transition: .4s;
-
 }
 
 .result-style {
